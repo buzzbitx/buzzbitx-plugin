@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "buzzbitx",
+  "version": "1.0.0",
+  "description": "Run your BuzzBit X business from your AI assistant: read the numbers, draft flows and campaigns, and send only after you approve in BuzzBit X.",
+  "author": {
+    "name": "BuzzBit X",
+    "url": "https://www.buzzbitx.com"
+  },
+  "homepage": "https://www.buzzbitx.com/docs/mcp",
+  "repository": "https://github.com/arad1do/buzzbitx-plugin",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BuzzBit X",
+        "shortDescription": "Your marketing, CRM and messaging, run from chat",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "brandColor": "#111111",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "websiteURL": "https://www.buzzbitx.com",
+        "privacyPolicyURL": "https://www.buzzbitx.com/privacy",
+        "termsOfServiceURL": "https://www.buzzbitx.com/terms",
+        "defaultPrompt": [
+          "How did my business do this week?",
+          "Draft a welcome flow for new subscribers",
+          "What is unfinished in BuzzBit X?"
+        ]
+      }
+    }
+  }
+}

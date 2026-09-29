@@ -1,0 +1,20 @@
+{
+  "name": "buzzbitx",
+  "owner": {
+    "name": "BuzzBit X",
+    "url": "https://www.buzzbitx.com"
+  },
+  "metadata": {
+    "description": "Run your BuzzBit X business from your AI assistant: read the numbers, draft flows and campaigns, and send only after you approve in BuzzBit X.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "buzzbitx",
+      "source": "./",
+      "description": "Run your BuzzBit X business from your AI assistant: read the numbers, draft flows and campaigns, and send only after you approve in BuzzBit X.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

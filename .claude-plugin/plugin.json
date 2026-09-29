@@ -1,0 +1,21 @@
+{
+  "name": "buzzbitx",
+  "displayName": "BuzzBit X",
+  "version": "1.0.0",
+  "description": "Run your BuzzBit X business from your AI assistant: read the numbers, draft flows and campaigns, and send only after you approve in BuzzBit X.",
+  "author": {
+    "name": "BuzzBit X",
+    "url": "https://www.buzzbitx.com"
+  },
+  "homepage": "https://www.buzzbitx.com/docs/mcp",
+  "repository": "https://github.com/arad1do/buzzbitx-plugin",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "crm",
+    "email",
+    "whatsapp",
+    "shopify",
+    "automation"
+  ]
+}
